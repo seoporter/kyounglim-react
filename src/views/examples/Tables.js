@@ -29,11 +29,9 @@ import {
   Pagination,
   PaginationItem,
   PaginationLink,
-  Progress,
   Table,
   Container,
   Row,
-  UncontrolledTooltip,
 } from "reactstrap";
 // core components
 import Header from "components/Headers/Header.js";
@@ -49,7 +47,7 @@ const Tables = () => {
           <div className="col">
             <Card className="shadow">
               <CardHeader className="border-0">
-                <h3 className="mb-0">Card tables</h3>
+                <h3 className="mb-0">목록</h3>
               </CardHeader>
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
@@ -99,9 +97,7 @@ const Tables = () => {
                     </td>
                     <td>
                       <Badge color="" className="badge-dot mr-4">
-                       1롤sudo port install git
-
-
+                       1롤
                       </Badge>
                     </td>
                     <td> 1,000 KRW</td>
